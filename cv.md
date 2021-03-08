@@ -1,36 +1,28 @@
-Liudmila Fedorova
+# Liudmila Fedorova
 
-Contacts
+## Contacts
 
-E-mail: ritsumei@yandex.ru
+**E-mail:** ritsumei@yandex.ru
+**Tel.:** +79027700997
+**Telegram:** @Ritsumei
 
-Tel.: +79027700997
-
-Telegram: @Ritsumei
-
-About
+## About
 
 I am a beginner in Frontend development, that wants to become a real developer.
-
-I am flexible, so can easily learn new technologies and I am keen on doing it.
-
+I am flexible, so can easily learn new technologies and _**I am keen on doing it**_.
 Here is my [GitHub portfolio.](https://github.com/ToshiteShigure)
 
-Skills
+## Skills
 
-HTML/CSS
+* HTML/CSS
+* JavaScript
+* Git
+* Figma
+* Photoshop
 
-JavaScript
+## Example of code 
 
-Git
-
-Figma
-
-Photoshop
-
-Example of code 
-
-javascript
+```javascript
 function fizzbuzz(n) {
     if (n < 1) return;
     let str = [];
@@ -42,34 +34,30 @@ function fizzbuzz(n) {
     }
     return str;
 }
+```
 
+## Projects
 
-Projects
-
-[Bongo cat drum kit](https://github.com/ToshiteShigure/bongo-cat-drum-kit)
+### [Bongo cat drum kit](https://github.com/ToshiteShigure/bongo-cat-drum-kit)
 
 JavaScript, HTML, CSS
-
 The project is made for [the 30 Day Vanilla JS Challenge by Wesbos](https://javascript30.com/)
 
-[Character page - Marceline](https://github.com/ToshiteShigure/marcelines-page)
+### [Character page - Marceline](https://github.com/ToshiteShigure/marcelines-page)
 
 HTML, CSS
-
 The project is for The Young Programmer's School
 
-[Product card](https://github.com/ToshiteShigure/peony-product-card)
+### [Product card](https://github.com/ToshiteShigure/peony-product-card)
 
 Another project is for The Young Programmer's School
 
-Education 
+## Education 
 
-The Rolling Scopes School (online) - present
+* The Rolling Scopes School (online) - present
+* The Young Programmer's School, Petrozavodsk (online) - present 
 
-The Young Programmer's School, Petrozavodsk (online) - present 
+## Language skills
 
-Language skills
-
-English B1
-
-Swedish A1
+* English *B1*
+* Swedish *A1*
