@@ -20,6 +20,10 @@ Here is my [GitHub portfolio.](https://github.com/ToshiteShigure)
 
 * HTML/CSS
 
+* Sass
+
+* BEM Methodology
+
 * JavaScript
 
 * Git
