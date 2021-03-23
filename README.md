@@ -1,1 +1,1 @@
-# [GitHub Pages](https://toshiteshigure.github.io/rsschool-cv/cv)
+[GitHub Pages](https://toshiteshigure.github.io/rsschool-cv/cv)
