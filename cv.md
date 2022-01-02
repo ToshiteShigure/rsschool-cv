@@ -5,7 +5,7 @@
 
 ## Contacts
 
-**Location** Budva, Montenegro
+**Location:** Budva, Montenegro
 
 **Email:** ritsumei@yandex.com
 
@@ -69,19 +69,19 @@ function fizzbuzz(n) {
 
 ### [Bongo cat drum kit](https://github.com/ToshiteShigure/bongo-cat-drum-kit)
 
-*JavaScript, HTML, CSS*
+**JavaScript, HTML, CSS**
 
 The project is made for [the 30 Day Vanilla JS Challenge by Wesbos](https://javascript30.com/)
 
 ### [AOD bikes landing page](https://github.com/tsuyune/aod-bikes-landing-page)
 
-*HTML, CSS, JavaScript*
+**HTML, CSS, JavaScript**
 
 I have made the landing page for practicing HTML and CSS skills
 
 ### [PC Assembly Banner](https://github.com/tsuyune/pc-assembly-landing-page)
 
-*HTML, CSS*
+**HTML, CSS**
 
 The project is for The Young Programmer's School
 
