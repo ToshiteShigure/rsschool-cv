@@ -1,22 +1,32 @@
-# Liudmila Fedorova 
-## Junior Frontend Developer
+# Liudmila Fedorova
+
+## *Junior Frontend Developer*
+
 
 ## Contacts
 
 **Location** Budva, Montenegro
+
 **Email:** ritsumei@yandex.com
+
 **Phone:** +79027700997
+
 **Skype:** ritsumei@yandex.com
+
 **Telegram:** @Ritsumei
+
 **Discord rsschool:** Liudmila Fedorova (@tsuyune)
-**GitHub:** [@tsuyune](https://github.com/tsuyune)
+
+**GitHub:** [tsuyune](https://github.com/tsuyune)
+
+**CodeWars:** [tsuyune](https://www.codewars.com/users/tsuyune)
+
 
 ## About
 I am a beginner in Frontend development, who wants to become a real developer.
 
 I am flexible, so can easily learn new technologies and _**I am keen on doing it**_.
 
-Here is my [GitHub profile](https://github.com/tsuyune)
 
 ## Skills
 
@@ -36,6 +46,7 @@ Here is my [GitHub profile](https://github.com/tsuyune)
 
 * Adobe Photoshop
 
+
 ## Code example
 
 Fizz Buzz task on [CodeWars](https://www.codewars.com/kata/5300901726d12b80e8000498)
@@ -53,29 +64,31 @@ function fizzbuzz(n) {
     return str;
 }
 ```
+
 ## Projects
 
 ### [Bongo cat drum kit](https://github.com/ToshiteShigure/bongo-cat-drum-kit)
 
-JavaScript, HTML, CSS
+*JavaScript, HTML, CSS*
 
 The project is made for [the 30 Day Vanilla JS Challenge by Wesbos](https://javascript30.com/)
 
 ### [AOD bikes landing page](https://github.com/tsuyune/aod-bikes-landing-page)
 
-HTML, CSS, JavaScript
+*HTML, CSS, JavaScript*
 
-Made the landing page for practicing HTML and CSS skills
+I have made the landing page for practicing HTML and CSS skills
 
 ### [PC Assembly Banner](https://github.com/tsuyune/pc-assembly-landing-page)
 
-HTML, CSS
+*HTML, CSS*
 
 The project is for The Young Programmer's School
 
+
 ## Education 
 
-* The Rolling Scopes School - now
+* The Rolling Scopes School - *now*
 
 * freeCodeCamp (Responsive Web Design)
 
@@ -86,6 +99,7 @@ The project is for The Young Programmer's School
 * Grasshopper app (JS Fundamentals course)
 
 * The Young Programmer's School, Petrozavodsk
+
 
 ## Language skills
 
