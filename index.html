@@ -5,139 +5,213 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Liudmila Fedorova CV</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&family=Roboto+Condensed:wght@300;400;700&display=swap"
-        rel="stylesheet">
+    <title>Liudmila Fedorova - Frontend Developer CV</title>
+    <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <header>
-        <section class="my-name">
-            <div class="my-name">
-                <h1>Liudmila Fedorova</h1>
-                <h2 class="my-name">Junior Frontend Developer</h2>
-            </div>
-        </section>
-        <section class="contacts">
-            <h2 class="contacts">Contacts</h2>
-            <div class="contacts">
-                <address><b>Location:</b><br> The Hague, The Netherlands</address>
-                <span><b>Email:</b><br> ritsumei@yandex.com</span>
-                <span><b>Phone:</b><br> +79027700997</span>
-                <span><b>Skype:</b><br> ritsumei@yandex.com</span>
-                <span><b>Telegram:</b><br> @Ritsumei</span>
-                <span><b>Discord:</b><br> Liudmila Fedorova (@tsuyune)</span>
-                <span><b>GitHub:</b><br> tsuyune</span>
-                <span><b>CodeWars:</b><br> tsuyune</span>
-            </div>
-        </section>
-        <div class="photo">
-            <img class="photo" src="./img/photo.png" alt="My photo" width="500" height="500">
-        </div>
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a class="nav__link" href="#about">About me</a></li>
+                <li class="nav__item"><a class="nav__link" href="#contact">Contact</a></li>
+                <li class="nav__item"><a class="nav__link" href="#education">Education</a></li>
+                <li class="nav__item"><a class="nav__link" href="#projects">Projects</a></li>
+                <li class="nav__item"><a class="nav__link" href="#skills">Skills</a></li>
+                <li class="nav__item"><a class="nav__link" href="#lang">Languages</a></li>
+                <li class="nav__item"><a class="nav__link" href="#code">Code examples</a></li>
+            </ul>
+        </nav>
     </header>
-    <main>
-        <section class="about second-column">
-            <h2>About me</h2>
-            <p>I am a beginner in Frontend development, who wants to become a real developer. I am flexible, so can
-                easily learn new technologies and <b><i>I am keen on doing it</i></b>.
-            </p>
+    <main class="main-page">
+        <section class="introduction">
+            <img src="./assets/img/photo.png" alt="Photo of me" class="photo">
+            <div class="wrapper introduction__wrapper">
+                <h1 class="introduction__heading">Liudmila Fedorova</h1>
+                <p class="introduction__caption">Front-End Developer</p>
+            </div>
         </section>
 
-        <section class="skills second-column">
-            <h2>Skills</h2>
-            <ul>
-                <li>HTML/CSS</li>
-                <li>Sass</li>
-                <li>JavaScript</li>
-                <li>Git</li>
-                <li>BEM Methodology</li>
-                <li>VSCode/Emmet</li>
-                <li>Figma</li>
-                <li>Adobe Photoshop</li>
+        <section class="about" id="about">
+            <div class="wrapper about__wrapper">
+                <h2 class="section__title">About me</h2>
+                <p class="text about__text">I am a beginner in Frontend development, who wants to become a real
+                    developer. I
+                    am flexible, so can easily learn new technologies and <b class="text__accent">I am keen on doing
+                        it.</b>
+                </p>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2 class="section__title">Contact</h2>
+            <ul class="contact__list">
+                <li class="contact__item">
+                    <div class="contact__icon address-icon"></div>
+                    <address class="contact__link">The Hague, The Netherlands</address>
+                </li>
+                <li class="contact__item">
+                    <div class="contact__icon email-icon"></div>
+                    <a class="contact__link" href="mailto:ritsumei@yandex.com">ritsumei@yandex.com</a>
+                </li>
+                <li class="contact__item">
+                    <div class="contact__icon phone-icon"></div>
+                    <a class="contact__link" href="tel:+79027700997">+ 7 (902) 770-09-97</a>
+                </li>
+                <li class="contact__item">
+                    <div class="contact__icon telegram-icon"></div>
+                    <a class="contact__link" href="https://t.me/ritsumei">@Ritsumei</a>
+                </li>
+                <li class="contact__item">
+                    <div class="contact__icon github-icon"></div>
+                    <a class="contact__link" href="https://github.com/tsuyune">github.com/tsuyune</a>
+                </li>
+                <li class="contact__item">
+                    <div class="contact__icon codewars-icon"></div>
+                    <a class="contact__link"
+                        href="https://www.codewars.com/users/rsschool_40fa3d862cd63ec6">codewars</a>
+                </li>
             </ul>
         </section>
 
-        <section class="code-example first-column">
-            <div class="first-column">
-                <h2 class="first-column">Code example</h2>
-                <hr>
-            </div>
-            <p>
-                Fizz Buzz task on
-                <a href="https://www.codewars.com/kata/5300901726d12b80e8000498">CodeWars</a>
-            </p>
+        <section class="education" id="education">
+            <h2 class="section__title">Education</h2>
+            <ul class="education__list">
+                <li class="education__item">The Rolling Scopes School - now</li>
+                <li class="education__item">freeCodeCamp (Responsive Web Design)</li>
+                <li class="education__item">Learn Git Branching</li>
+                <li class="education__item">Code-Basics (HTML and CSS courses)</li>
+                <li class="education__item">Grasshopper app (JS Fundamentals course)</li>
+                <li class="education__item">The Young Programmer's School</li>
+            </ul>
+        </section>
 
-            <pre>
-                    <code>
-function fizzbuzz(n) {
-    if (n &lt; 1) return;
-    let str = [];
-    for (let i = 1; i &lt;= n; i++) {
-        if (i % 3 == 0 &amp;&amp; i % 5 == 0) str.push("FizzBuzz")
-        else if (i % 3 == 0) str.push("Fizz")
-        else if (i % 5 == 0) str.push("Buzz")
-        else str.push(i);
+        <section class="skills" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <ul class="skills__list">
+                <li class="list__element">
+                    <p>HTML/CSS</p>
+                    <p>intermediate</p>
+                </li>
+                <li class="list__element">
+                    <p>SCSS/SASS</p>
+                    <p>intermediate</p>
+                </li>
+                <li class="list__element">
+                    <p>JavaScript</p>
+                    <p>elementary</p>
+                </li>
+                <li class="list__element">
+                    <p>Git</p>
+                    <p>beginner</p>
+                </li>
+                <li class="list__element">
+                    <p>BEM Methodology</p>
+                    <p>elementary</p>
+                </li>
+                <li class="list__element">
+                    <p>VSCode/Emmet</p>
+                    <p>intermediate</p>
+                </li>
+                <li class="list__element">
+                    <p>Figma</p>
+                    <p>intermediate</p>
+                </li>
+                <li class="list__element">
+                    <p>Adobe Photoshop</p>
+                    <p>intermediate</p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="lang" id="lang">
+            <h2 class="section__title">Languages</h2>
+            <ul class="lang__list">
+                <li class="list__element">
+                    <p>Russian</p>
+                    <p>native</p>
+                </li>
+                <li class="list__element">
+                    <p>English</p>
+                    <p>intermediate</p>
+                </li>
+                <li class="list__element">
+                    <p>Swedish</p>
+                    <p>elementary</p>
+                </li>
+                <li class="list__element">
+                    <p>Dutch</p>
+                    <p>beginner</p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="code-example" id="code">
+            <h2 class="section__title">Code examples</h2>
+            <h3 class="section__subtitle">[7 kyu] <a class="code__link"
+                    href="https://www.codewars.com/kata/62eb800ba29959001c07dfee">Which color is the brightest?</a></h3>
+            <pre class="code__frame">
+                <code>
+let brightest = colors =&gt; { 
+    let rgbSeparatedArr = [], maxArr = []; 
+    for (let i = 0; i &lt; colors.length; i++) { 
+        rgbSeparatedArr.push(colors[i].match(/[0-9A-F]{2}/g)); 
+        maxArr.push(Math.max(...(rgbSeparatedArr[i].map(x =&gt; parseInt(x, 16))))); 
     }
-    return str;
+    return colors[maxArr.indexOf(Math.max(...maxArr))]; 
 }
-                    </code>
-                </pre>
+                </code>
+            </pre>
+            <h3 class="section__subtitle">[7 kyu] <a class="code__link"
+                    href="https://www.codewars.com/kata/585b1fafe08bae9988000314">Digits explosion</a></h3>
+            <pre class="code__frame">
+                <code>
+function explode(s) { 
+    return s.split("").map(x =&gt; x.repeat(x)).join(""); 
+}
+                </code>
+            </pre>
+            <h3 class="section__subtitle">[7 kyu] <a class="code__link"
+                    href="https://www.codewars.com/kata/54ba84be607a92aa900000f1">Isograms</a></h3>
+            <pre class="code__frame">
+                <code>
+let isIsogram = str =&gt; { 
+    let set = new Set(str.toLowerCase().split("")); 
+    return set.size == str.length ? true : false; 
+}
+                </code>
+            </pre>
         </section>
 
-        <section class="projects first-column">
-            <div class="first-column">
-                <h2 class="first-column">Projects</h2>
-                <hr>
-            </div>
+        <section class="projects" id="projects">
+            <h2 class="section__title">Projects</h2>
 
-            <h3><a href="https://github.com/tsuyune/bongo-cat-drum-kit">Bongo cat drum kit</a></h3>
-            <p><b>JavaScript, HTML, CSS</b></p>
-            <p>The project is made for <a href="https://javascript30.com/">30 Day Vanilla JS Challenge by Wesbos</a>
-            </p>
+            <h3 class="section__subtitle"><a class="project__link"
+                    href="https://github.com/tsuyune/bongo-cat-drum-kit">Bongo cat drum kit</a>
+            </h3>
+            <p>The project is made for <a href="https://javascript30.com/">30 Day Vanilla JS Challenge by Wesbos</a></p>
+            <p>JavaScript, HTML, CSS</p>
 
-            <h3><a href="https://github.com/tsuyune/aod-bikes-landing-page">AOD bikes landing page</a></h3>
-            <p><b>HTML, CSS, JavaScript</b></p>
+            <h3 class="section__subtitle"><a class="project__link"
+                    href="https://github.com/tsuyune/aod-bikes-landing-page">AOD bikes landing
+                    page</a></h3>
             <p>I have made the landing page for practicing HTML and CSS skills</p>
+            <p>HTML, CSS, JavaScript</p>
 
-            <h3><a href="https://github.com/tsuyune/pc-assembly-landing-page">PC Assembly Banner</a></h3>
-            <p><b>HTML, CSS</b></p>
+            <h3 class="section__subtitle"><a class="project__link"
+                    href="https://github.com/tsuyune/pc-assembly-landing-page">PC Assembly Banner</a></h3>
             <p>The project is for The Young Programmer's School</p>
+            <p>HTML, CSS</p>
         </section>
 
-        <section class="education first-column">
-            <div class="first-column">
-                <h2 class="first-column">Education</h2>
-                <hr>
-            </div>
-            <ul>
-                <li>The Rolling Scopes School - <i>now</i></li>
-                <li>freeCodeCamp (Responsive Web Design)</li>
-                <li>Learn Git Branching</li>
-                <li>Code-Basics (HTML and CSS courses)</li>
-                <li>Grasshopper app (JS Fundamentals course)</li>
-                <li>The Young Programmer's School, <i>Petrozavodsk</i></li>
-            </ul>
-        </section>
-
-        <section class="lang-skills second-column">
-            <h2>Language skills</h2>
-            <ul>
-                <li>Russian - <i>native</i></li>
-                <li>English - <i>intermediate</i></li>
-                <li>Swedish - <i>elementary</i></li>
-                <li>Montenegrin - <i>beginner</i></li>
-            </ul>
-        </section>
     </main>
-    <footer>
-        <a class="github-link" href="https://github.com/tsuyune">GitHub tsuyune</a>
-        <time datetime="2022">2022</time>
-        <a class="rs-link" href="https://rs.school/js/"><img src="./img/rs_school_js.svg" alt="My photo" width="100"
-                height="100"></a>
+    <footer class="footer">
+        <a class="github-link" href="https://github.com/tsuyune"><img src="./assets/svg/github_logo.svg"
+                alt="Tsuyune GitHub link" width="130" height="40"></a>
+        <span class="year">© <time datetime="2022">2022</time></span>
+        <a class="rs-link" href="https://rs.school/js/"><img src="./assets/svg/rsschool_logo.svg"
+                alt="Rolling Scopes JS Course" width="108" height="40"></a>
     </footer>
 </body>
 
