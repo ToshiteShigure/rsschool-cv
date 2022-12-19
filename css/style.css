@@ -34,6 +34,7 @@
     --bg-color: hsla(0, 0%, 100%, 1);
     --bg-secondary-color: hsla(338, 6%, 95%, 1);
     --accent-color: hsla(349, 47%, 65%, 1);
+    --secondary-color: hsla(360, 41%, 59%, 1);
 
     font-family: 'Nunito', sans-serif;
     font-size: 0.9375rem;
@@ -44,15 +45,19 @@ a {
     text-decoration: none;
 }
 
-a:active {
-    color: var(--accent-color, hsla(349, 47%, 65%, 1));
-    transition: color 0.3s ease-in-out;
-    font-weight: bold;
+a:visited {
+    color: var(--secondary-color, hsla(360, 41%, 59%, 1));
 }
 
 a:hover {
     color: var(--accent-color, hsla(349, 47%, 65%, 1));
     transition: all 0.3s ease-in-out;
+}
+
+a:active {
+    color: var(--accent-color, hsla(349, 47%, 65%, 1));
+    transition: color 0.3s ease-in-out;
+    font-weight: bold;
 }
 
 .header {
@@ -67,6 +72,8 @@ a:hover {
 }
 
 .nav__list {
+    padding-left: 0;
+
     height: inherit;
 
     display: flex;
@@ -199,7 +206,7 @@ a:hover {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    column-gap: 30em;
+    column-gap: 20%;
     row-gap: 0.5em;
 }
 
@@ -211,7 +218,7 @@ a:hover {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    column-gap: 30em;
+    column-gap: 20%;
     row-gap: 0.5em;
 }
 
@@ -223,13 +230,17 @@ a:hover {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    column-gap: 30em;
+    column-gap: 20%;
     row-gap: 0.5em;
 }
 
 .list__element {
     display: flex;
     justify-content: space-between;
+}
+    
+.education__element {
+    margin: 15px 0;
 }
 
 .list__element :last-child {
