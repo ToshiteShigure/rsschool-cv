@@ -5,7 +5,7 @@
 
 ## Contacts
 
-**Location:** Budva, Montenegro
+**Location:** The Hague, The Netherlands
 
 **Email:** ritsumei@yandex.com
 
@@ -19,7 +19,7 @@
 
 **GitHub:** [tsuyune](https://github.com/tsuyune)
 
-**CodeWars:** [tsuyune](https://www.codewars.com/users/tsuyune)
+**CodeWars:** [tsuyune](https://www.codewars.com/users/rsschool_40fa3d862cd63ec6)
 
 
 ## About
@@ -110,3 +110,5 @@ The project is for The Young Programmer's School
 * Swedish - *elementary*
 
 * Montenegrin - *beginner*
+
+* Dutch - *beginner*
