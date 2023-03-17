@@ -238,7 +238,7 @@ a:active {
     display: flex;
     justify-content: space-between;
 }
-    
+
 .education__element {
     margin: 15px 0;
 }
@@ -246,6 +246,10 @@ a:active {
 .list__element :last-child {
     font-family: 'Nunito Italic', sans-serif;
     opacity: 0.6;
+}
+
+.address {
+    font-style: normal;
 }
 
 .code__frame {
@@ -270,6 +274,14 @@ a:active {
     font-family: 'Nunito', sans-serif;
     font-size: 1.25em;
     line-height: 1.2em;
+}
+
+.github-link, .rs-link {
+    transition: all 0.3s ease-in-out;
+}
+
+.github-link:hover, .rs-link:hover {
+    transform: scale(1.1);
 }
 
 .footer {

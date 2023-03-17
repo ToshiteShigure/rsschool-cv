@@ -20,7 +20,7 @@
                 <li class="nav__item"><a class="nav__link" href="#projects">Projects</a></li>
                 <li class="nav__item"><a class="nav__link" href="#skills">Skills</a></li>
                 <li class="nav__item"><a class="nav__link" href="#lang">Languages</a></li>
-                <li class="nav__item"><a class="nav__link" href="#code">Code examples</a></li>
+                <li class="nav__item"><a class="nav__link" href="#code">Code&nbsp;examples</a></li>
             </ul>
         </nav>
     </header>
@@ -28,18 +28,15 @@
         <section class="introduction">
             <img src="./assets/img/photo.png" alt="Photo of me" class="photo">
             <div class="wrapper introduction__wrapper">
-                <h1 class="introduction__heading">Liudmila Fedorova</h1>
-                <p class="introduction__caption">Front-End Developer</p>
+                <h1 class="introduction__heading">Liudmila&nbsp;Fedorova</h1>
+                <p class="introduction__caption">Front-End&nbsp;Developer</p>
             </div>
         </section>
 
         <section class="about" id="about">
             <div class="wrapper about__wrapper">
                 <h2 class="section__title">About me</h2>
-                <p class="text about__text">I am a beginner in Frontend development, who wants to become a real
-                    developer. I
-                    am flexible, so can easily learn new technologies and <b class="text__accent">I am keen on doing
-                        it.</b>
+                <p class="text about__text">I am a beginner in Frontend development, who wants to become a developer. I am flexible, so can easily learn new technologies and <b class="text__accent">I am keen on doing it.</b>
                 </p>
             </div>
         </section>
@@ -49,7 +46,7 @@
             <ul class="contact__list">
                 <li class="contact__item">
                     <div class="contact__icon address-icon"></div>
-                    <address class="contact__link">The Hague, The Netherlands</address>
+                    <address class="contact__link address">The Hague,&nbsp;The Netherlands</address>
                 </li>
                 <li class="contact__item">
                     <div class="contact__icon email-icon"></div>
@@ -57,7 +54,7 @@
                 </li>
                 <li class="contact__item">
                     <div class="contact__icon phone-icon"></div>
-                    <a class="contact__link" href="tel:+79027700997">+ 7 (902) 770-09-97</a>
+                    <a class="contact__link" href="tel:+79027700997">+&nbsp;7&nbsp;(902)&nbsp;770&#8209;09&#8209;97</a>
                 </li>
                 <li class="contact__item">
                     <div class="contact__icon telegram-icon"></div>
@@ -78,7 +75,7 @@
         <section class="education" id="education">
             <h2 class="section__title">Education</h2>
             <ul class="education__list">
-                <li class="education__element">The Rolling Scopes School - now</li>
+                <li class="education__element">The Rolling Scopes School &#8209; now</li>
                 <li class="education__element">freeCodeCamp (Responsive Web Design)</li>
                 <li class="education__element">Learn Git Branching</li>
                 <li class="education__element">Code-Basics (HTML and CSS courses)</li>
@@ -149,38 +146,35 @@
 
         <section class="code-example" id="code">
             <h2 class="section__title">Code examples</h2>
-            <h3 class="section__subtitle">[7 kyu] <a class="code__link"
-                    href="https://www.codewars.com/kata/62eb800ba29959001c07dfee">Which color is the brightest?</a></h3>
+            <h3 class="section__subtitle">[7 kyu]<a class="code__link"
+                    href="https://www.codewars.com/kata/62eb800ba29959001c07dfee"> Which color is the brightest?</a></h3>
             <pre class="code__frame">
                 <code>
-let brightest = colors =&gt; { 
-    let rgbSeparatedArr = [], maxArr = []; 
-    for (let i = 0; i &lt; colors.length; i++) { 
-        rgbSeparatedArr.push(colors[i].match(/[0-9A-F]{2}/g)); 
-        maxArr.push(Math.max(...(rgbSeparatedArr[i].map(x =&gt; parseInt(x, 16))))); 
+let brightest = colors =&gt; {
+    let rgbSeparatedArr = [], maxArr = [];
+    for (let i = 0; i &lt; colors.length; i++) {
+        rgbSeparatedArr.push(colors[i].match(/[0-9A-F]{2}/g));
+        maxArr.push(Math.max(...(rgbSeparatedArr[i].map(x =&gt; parseInt(x, 16)))));
     }
-    return colors[maxArr.indexOf(Math.max(...maxArr))]; 
-}
-                </code>
+    return colors[maxArr.indexOf(Math.max(...maxArr))];
+}</code>
             </pre>
-            <h3 class="section__subtitle">[7 kyu] <a class="code__link"
-                    href="https://www.codewars.com/kata/585b1fafe08bae9988000314">Digits explosion</a></h3>
+            <h3 class="section__subtitle">[7 kyu]<a class="code__link"
+                    href="https://www.codewars.com/kata/585b1fafe08bae9988000314"> Digits explosion</a></h3>
             <pre class="code__frame">
                 <code>
-function explode(s) { 
-    return s.split("").map(x =&gt; x.repeat(x)).join(""); 
-}
-                </code>
+function explode(s) {
+    return s.split("").map(x =&gt; x.repeat(x)).join("");
+}</code>
             </pre>
-            <h3 class="section__subtitle">[7 kyu] <a class="code__link"
-                    href="https://www.codewars.com/kata/54ba84be607a92aa900000f1">Isograms</a></h3>
+            <h3 class="section__subtitle">[7 kyu]<a class="code__link"
+                    href="https://www.codewars.com/kata/54ba84be607a92aa900000f1"> Isograms</a></h3>
             <pre class="code__frame">
                 <code>
-let isIsogram = str =&gt; { 
-    let set = new Set(str.toLowerCase().split("")); 
-    return set.size == str.length ? true : false; 
-}
-                </code>
+let isIsogram = str =&gt; {
+    let set = new Set(str.toLowerCase().split(""));
+    return set.size == str.length ? true : false;
+}</code>
             </pre>
         </section>
 
